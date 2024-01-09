@@ -1,0 +1,221 @@
+.MainSideBox{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+/* .infocard{
+    background-color: #0E1115;
+    border-radius: 10px;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 10px solid #f200ffb9;
+}
+
+.infocard ul{
+    font-size: 15px;
+}
+
+.infonav{
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.infocard button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6vh;
+    width: 23vw;
+    padding-left: 1vw;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.infocard button:hover{
+    background-color: #f200ffb9;
+    padding-left: 2vw;
+} */
+
+
+
+
+
+
+
+
+
+.settings_cont{
+    width: calc(100vw - 21.09vw);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountbox{
+    height: auto;
+    width: calc(100vw - 21.09vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.usersetting{
+    height: 40vh;
+    width: 45vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #0E1115;
+    border-bottom: 10px solid #f200ffb9;
+}
+.usersetting h1{font-size: 18px;}
+
+.settingname{
+    background-color: #14181D;
+    height: 7vh;
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.inputinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 40vw;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #14181D;
+    width: 15vw;
+    height: 7vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+
+.name, .mail{
+
+    color: white;
+    width: 10vw;
+    height: 7vh;
+    font-size: 12px;
+    user-select: none
+;}
+
+.nameinput, .mailinput{
+    display: flex;
+    color: #ffffffa0;
+    text-align: start;
+    font-size: 16px;
+    width: 15vw;
+    height: 7vh;;
+    color: white;
+    padding-left: 1em;
+    font-family: "intelone";
+}
+
+.confirm{
+
+    width: 5vw;
+    height: 5vh;
+    background-color: #23282E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.textconfirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    font-size: 16px;
+}
+
+.confirm:hover{
+    /* background-color: rgba(0, 128, 0, 0.478); */
+    background-color: #f200ffb9;
+    width: 35vw;
+    transition: 1s;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: #14181D;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 10px;
+}
+
+
+
+.infocard{
+    background-color: #0E1115;
+    border-radius: 10px;
+    height: 60vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 10px solid #f200ffb9;
+}
+.infocard ul{
+    font-size: 15px;
+}
+
+.infonav{
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infocard button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6vh;
+    width: 18vw;
+    padding-left: 1vw;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.infocard button:hover{
+    background-color: #f200ffb9;
+    padding-left: 2vw;
+}

@@ -1,0 +1,75 @@
+
+.Sidebarpanel{
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 21.09vw;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.sidepanel{
+  width: 21.09vw;
+  background-color: #0E1115;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: sticky;
+}
+
+.sidelogo{
+  display: flex;
+  width: 21.09vw;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 15vh;
+}
+
+.logotip{
+  width: 13vw;
+
+}
+
+.sidenav{
+  padding-top: 15vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  height: 6vh;
+}
+
+button{
+  border: none;
+  font-family: "intelone";
+  color: white;
+
+  text-decoration: none;
+  background-color: #0E1115;
+}
+
+.translate:hover, .contact:hover, .help:hover, .account:hover{
+  background-color: #f200ffb9;
+  cursor: pointer;
+  border-radius: 10px;
+  border-color: black;
+  padding-left: 2vw;
+}
+
+.translate, .contact, .help, .account{
+  width: 19vw;
+  font-size: 18px;
+  padding-left: 1vw;
+}
+
+
+
+

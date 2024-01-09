@@ -1,0 +1,586 @@
+/* main module css */
+body{
+    display: flex;
+
+}
+
+
+/* МЕНЮ С ПЕРЕВОДЧИКОМ */
+.translatemenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100vw - 21.09vw);
+    height: 100vh;
+    background-color: #161922;
+    font-size: 16px;
+    overflow: hidden;
+    padding: 5vh;
+}
+
+.messagelist{
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    width: 55vw;
+    border: none;
+    word-wrap: break-word;
+    color:#ffffffa0;
+    flex-direction: column;
+}
+
+.newmessage{
+    margin-top: 3vh;
+    padding-left: 4vw;
+    border: none;
+
+}
+
+input {outline:none;}
+
+.enterbox{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vw;
+    align-items:  center;
+    width: 60vw;
+    height: 7vh;
+    border: 1px solid #ffffffa0;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.inptxt{
+    background-color: transparent;
+    font-size: 14px;
+    color: #ffffffa0;
+    width: 50vw;
+    word-wrap: break-word;
+    overflow-y: auto;
+    border: none;
+}
+.sendbutton{
+    background-color: transparent;
+    color: #ffffff8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.requestbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    width: calc(100vw - 21.09vw);
+    color: white;
+}
+
+.hello{
+    display: flex;
+    padding-bottom: 5vh;
+}
+.choosebutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: calc(100vw - 70vw);
+}
+
+.signin,.signup{
+    background-color: #161922;
+}
+
+.signin:hover, .signup:hover {
+
+  cursor: pointer;
+  border-radius: 1px;
+  border-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* МЕНЮ КОНТАКТОВ */
+
+.contactboxs{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 21.09vw - 20vw);
+    height: 100vh;
+    background-color: #161922;
+}
+
+.contactboxs h1{
+    display: flex;
+    font-size: 25px;
+    font-family: 'intelone';
+    color: white;
+}
+
+.infobox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 6vh;
+    height: 57vh;
+    width: calc(100vw - 21.09vw);
+}
+
+.contact_find{
+    height: 43vh;
+    padding-top: 5vh;
+    width: calc(100vw - 21.09vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+}
+
+
+.contact_text{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.inner_contact_text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    color: white;
+    border-left: 5px solid #f200ffb9;
+    padding-left: 1vw;
+}
+
+.contactboxs ul{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    height: auto;
+    width: 90%;
+    /* background-color: black; */
+}
+.inner_contact_text_box ul{
+    padding-top: 2vh;
+}
+
+.first, .third{
+    width: 70vw;
+    height: 80vh;
+}
+.second{
+    width: 70vw;
+    height: 60vh;
+}
+
+
+.mapbox{
+    height: 45vh;
+    width: 35vw;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.maptextbox{
+
+    height: 35vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.textnavbox{
+    width: 25vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.maptextbox ul{
+    width: 100%;
+    height: auto; 
+}
+
+.maptextbox button{
+    text-decoration:none;
+    border: none;
+    background-color: transparent;
+    color: white;
+
+    width: 18vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 1vw;
+}
+
+.maptextbox button:hover{
+    background-color: #f200ffb9;
+    padding-left: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* МЕНЮ АККАУНТА */
+
+.acc{
+    width: calc(100vw - 21.09vw);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.accountbox{
+    height: auto;
+    width: calc(100vw - 21.09vw - 25vw);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.usersetting{
+    height: 53vh;
+    width: 45vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0E1115;
+    border-bottom: 10px solid #f200ffb9;
+    padding-top: 1em;
+}
+.usersetting h1{font-size: 18px;}
+
+.settingname{
+    background-color: #14181D;
+    height: 7vh;
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.inputinfo{
+    display: flex;
+    height: 22vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 35vw;
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #14181D;
+    width: 35vw;
+    height: 7vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.name, .mail{
+
+    color: white;
+    width: 35vw;
+    height: 7vh;
+    font-size: 12px;
+    user-select: none
+;}
+
+.nameinput, .mailinput{
+    display: flex;
+    color: #ffffffa0;
+    text-align: start;
+    font-size: 14px;
+    width: 35vw;
+    height: 7vh;;
+    color: white;
+    padding-left: 1em;
+    font-family: "intelone";
+
+}
+
+.confirm{
+
+    width: 5vw;
+    height: 5vh;
+    background-color: #23282E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    margin-bottom: 3em;
+}
+
+.textconfirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    font-size: 16px;
+}
+
+.confirm:hover{
+    /* background-color: rgba(0, 128, 0, 0.478); */
+    background-color: #f200ffb9;
+    width: 35vw;
+    transition: 1s;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: #14181D;
+    width: 35vw;
+    height: 7vh;
+    border-radius: 10px;
+}
+
+
+
+.infocard{
+    background-color: #0E1115;
+    border-radius: 10px;
+    height: 60vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 10px solid #f200ffb9;
+}
+.infocard ul{
+    font-size: 15px;
+}
+
+.infonav{
+    width: 25vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infocard button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 6vh;
+    width: 23vw;
+    padding-left: 1vw;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.infocard button:hover{
+    background-color: #f200ffb9;
+    padding-left: 2vw;
+}
+
+
+
+.key{
+    width: calc(100vw - 21.09vw);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key_container{
+    height: auto;
+    width: calc(100vw - 21.09vw - 25vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.key_box{
+    height: 60vh;
+    width: 45vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0E1115;
+    border-bottom: 10px solid #f200ffb9;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.key_name{
+    background-color: #14181D;
+    height: 7vh;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.current_key, .new_key, .save_new_key{
+    height: 7vh;
+    width: 35vw;
+    background-color: #14181D;
+    border-radius: 10px;
+    padding-left: 1em;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+
+.fa2{
+    width: calc(100vw - 21.09vw);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa2_container{
+    height: auto;
+    width: calc(100vw - 21.09vw - 25vw);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.fa2_box{
+    height: 53vh;
+    width: 45vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0E1115;
+    border-bottom: 10px solid #f200ffb9;
+    padding-top: 1em;
+}
+
+.fa2_name{
+    background-color: #14181D;
+    height: 7vh;
+    width: 24vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.fa2_inp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 22vh;
+    width: 35vw;
+}
+
+
+.smsbinp, .numbinp{ 
+    height: 7vh;
+    width: 35vw;
+    background-color: #14181D;
+    padding-left: 1em;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.fa2_buttons{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+    background-color: #23282E;
+    margin-bottom: 2em;
+}
+
+.delete2fa{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.save2fa{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.delete2fa, .save2fa{
+    width: 50%;
+    background-color: #14181D;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+.delete2fa:hover, .save2fa:hover{
+    width: 100%;
+    transition: 1s;
+    background-color: #f200ffb9;
+}

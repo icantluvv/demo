@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import './index.css';
+import MainContent from './components/Main/MainContent';
+import Sidebar from './components/Side/Sidebar';
+import MainSide from './components/MainSide/MainSide';
 
-function App() {
+
+const App = () => {
+  const [mainMenu, setMainMenu] = useState('translate');
+
+  const handleSidebarButtonClick = (menuItem) => {
+    setMainMenu(menuItem);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='flex_container'>
+      <Sidebar onButtonClick={handleSidebarButtonClick} className='sidebar'/>
+      <MainContent selectedMenuItem={mainMenu} className='main_cont' >
+      </MainContent>
+
+      
     </div>
   );
-}
+};
 
 export default App;
